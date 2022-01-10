@@ -1,0 +1,71 @@
+body{
+    background-color: #84FAF4;
+}
+
+#score{
+    margin-right: 1200px;
+    font-size: 25px;
+}
+
+#timer{
+    margin-left:1200px;
+    font-size: 25px;
+}
+
+#show_sketch{
+    margin-left: 1400px;
+    margin-top: 265px;
+}
+
+#actual_sketch{
+    background-color:goldenrod;
+    color: white;
+}
+
+#title_thing{
+    background-color: #84AF95;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-width: 10px;
+    border-style: double;
+    border-color:wheat;
+}
+
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+
+}
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top: 150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Chelsea Market', cursive;
+    font-size:25px;
+    
+  }
